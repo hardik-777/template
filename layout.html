@@ -1,0 +1,449 @@
+<html>
+    <head>
+   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	   
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      	<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=cursive">
+      	<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+   <title>layout website</title>
+<style>
+body
+{
+    margin:0px;
+   
+    
+}
+li
+{
+    display:inline;
+    text-align:center;
+    border-right: 1px solid green;
+    left:0px;
+    color:green;
+}
+li:hover
+{
+    color:white;
+}
+ul{
+    display:inline;
+    float: right;
+    padding-top:13px;
+    margin-left:0px;
+    padding:0px;
+}
+.container
+{
+ max-width:1170px;
+ margin:auto; 
+}
+i
+{
+    color:green;
+}
+header
+{
+    display:inline-block;
+}
+.images
+{
+    display:inline-block;
+    float:right;
+    position:relative;
+    left:230px;
+}
+.p{
+    font-size:2;
+    text-align:center;
+    font-family:permanentmarker;
+}
+.nav
+{
+    background-color:#1B1D19;
+    color:white;
+    padding:20px;
+    margin-left:20px;
+    position:relative;
+    top:30px;
+    float:left;
+}
+.image{
+    position:absolute;
+    top:130px;
+    right:0px;
+}
+.background
+{
+   
+}
+.bac1
+{
+    border:1px solid transparent;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:50px;
+    position:relative;
+    text-align:justify;
+    top:0%;
+    right:1%;
+    background-color:rgba(0,0,0,0.7);
+    padding-bottom:30px;
+    padding-left:10px;
+    font-family: 'Pangolin', cursive;
+    padding-right:10px;
+    box-shadow:0px 0px 5px black;
+    border-radius:14px;
+}
+h3
+{
+    color:white;
+    align:center;
+}
+h4
+{
+    font-size:1.5vh;
+    color:white;
+}
+button
+{
+    background-color:#00BF37;
+    color:black;
+    margin-left:10px;
+    padding:10px;
+    border-radius:20px;
+    outline:none;
+    bottom:70px;
+    right:12px;
+    border:1px solid transparent;
+    box-shadow:0px 0px 5px 3px rgba(0,0,0,0.5);
+}
+button:hover
+{
+    background-color:tomato;
+}
+h1
+{
+    top:90%;
+    position:relative;
+    margin-top:10px;
+}
+.books
+{
+    font-family:tahoma;
+    box-shadow:0px 0px 40px 3px black;
+    margin:0px 20px;
+    text-shadow: 0px 0px 5px orange;
+}
+.books:hover
+
+{
+    background-color:black;
+    color:green;
+    transition:1s;
+    -webkit-box-shadow:0px 0px 50px 10px green;
+    text-shadow: none;
+}
+.read
+{
+   
+    margin-left:60%;
+    color:white;
+    bottom:20px;
+    position:relative;
+    border:1px solid transparent;
+}
+.read:hover
+{
+    color:tomato;
+}
+p
+{
+    font-weight:bold;
+    text-align:justify;
+    padding:20px;
+    position:relative;
+    bottom:20px;
+   
+}
+.cover
+{
+    margin:0px;
+}
+.line{
+    border:1px solid #0A0078;
+    padding:3px;
+    margin:30px 0px;
+    color:#fff;
+    background-color: #0D00A1;
+    text-align:left;
+}
+.transfer
+{
+    position:relative;
+    bottom:35px;
+}
+h2
+{
+    margin-top:0px;
+}
+.news
+{
+    margin-left:20px;
+    margin-top:0;
+    position:relative;
+    bottom:80px;
+    box-shadow:0px 0px 20px black;
+    margin-right:10px;
+    border-radius:10px;
+    transition:0.5;
+    font-family:Sans-Serif;
+    text-shadow:0px 0px 5px green;
+}
+.news:hover
+{
+    background-color:#FF9200;
+    -webkit-box-shadow:0px 0px 20px 2px orange;
+    text-shadow:0px 0px 5px green;
+}
+.b
+{
+    position:absolute;
+    bottom:170px;
+    padding:10px;
+    left:180px;
+    
+}
+.op
+{
+   position:absolute;
+   top:150px;
+   display:inline;
+   left:173px;
+   text-decoration:underline green;
+   
+}
+.last
+{
+    background-color:#1C2C1A;
+    font-family:cursive;
+}
+.li
+{
+    display:block;
+    text-align:left;
+    margin-left:0px;
+    color:#07FF00;
+    border:none;
+}
+.table
+{
+    border:1px solid green;
+    margin:13px;
+    
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <header>
+       <img src="./images/logo.jpg" height="60px"width="70px">
+       
+    <ul>
+        
+
+       <i class="fa fa-envelope"> contact us<br><p class="p">hardikrishuu@gmail.com</p></i>
+       <i class="fa fa-phone"> call us<br><p class="p">9671798623</p></i>
+
+    </ul>
+   <div class="images">
+      <img src="./images/logo2.jpg"height="60px"width="60px">
+   </div>
+    </header>
+    <nav class="nav">
+      <li>Home&nbsp;</li>
+      <li>Main&nbsp;</li>
+      <li>Class&nbsp;</li> 
+      <li style="border:none">Logo&nbsp;</li>
+
+    </nav>
+    <div class="image">
+    <img src="./images/untitled-1.jpg"width="120px"height="59px">
+    </div>
+       <img src="./images/13.jpg" height="68%"width="100%">
+       <div class="bac1">
+           <h3>get a labeling solution to build a website</h3>
+<h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</h4>
+    <button type="submit">just in time</button>
+    <button style="background-color:white" type="submit">Contact</button>
+       </div>
+       <h1 style="margin-left:20px">What We Do</h1>
+       <div class="books">
+          <p style="top:10px">Meet the team</p> 
+          <img src="./images/rishu.jpg" width="100%">
+          <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <div class="read">
+              <button type="submit">read more</button>
+          </div>
+</div><br>
+        <div class="books">
+            <p style="top:10px">Our History</p>
+            <img src="./images/2.jpg"width="100%">
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+               <div class="read">
+              <button type="submit">read more</button>
+              </div>
+        </div><br>
+        <div class="books">
+            <p style="top:10px">Capabilities</p>
+            <img src="./images/3.jpg"width="100%">
+             
+             <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <div class="read">
+          <button >read more</button>
+        </div>
+     </div><br>
+     <div class="books">
+         <p style="top:10px">Equipments</p>
+         <img src="./images/6.jpg"width="100%">
+           <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <div class="read">
+          <button type="submit">read more</button>
+        </div>
+    </div><br>
+        <div class="books">
+            <p style="top:10px">Services</p>
+            <img src="./images/5.jpg"width="100%">
+         <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <div class="read">
+          <button type="submit">read more</button>
+        </div>
+      </div><br>
+      <div class="books">
+        <p style="top:10px">Markers</p>
+         <img src="./images/4.jpg"width="100%">
+          <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <div class="read">
+          <button type="submit">read more</button>
+        </div>
+      </div><br>
+   <div class="cover">
+    <div class="line">
+        <h6>an inquire about what labeling solution are best for your products today</h6>
+  </div>
+    <div class="transfer">
+        <img src="./images/12.jpg"width="100%"height="30%">
+              <button style="position:absolute;bottom:70px;left:180px" type="submit">request a quote</button>
+    </div>
+  </div>
+
+
+    <p style="font-size:7px">Latest company news</p>
+    <p style="position:relative;bottom:80px;font-size:20px">Newsroom</p>
+  <div class="news">
+      <img src="./images/7.jpg"width="50%"height="32%">
+          <button class="b">read more</button>
+      <p style="display:inline;font-size:10px;position:absolute;top:30px">
+
+          This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change
+          the layout of this page by selecting differentr adipiscing elit,ahdbdbdbxbdbxh</p>
+          <p class="op">
+              read more
+          </p>
+  </div><br>
+  
+  <div class="news">
+      <img src="./images/10.jpg"width="50%"
+      height="32%">
+                <button class="b">read more</button>
+      <p style="display:inline;font-size:10px;position:absolute;top:30px">
+
+          This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change
+          the layout of this page by selecting differentr adipiscing elit,abdbdhshdbdbdbd</p>
+          <p class="op">
+              read more
+          </p>
+  </div><br>
+  <div class="news">
+            <img src="./images/8.jpg"width="50%"
+      height="32%">
+                <button class="b">read more</button>
+      <p style="display:inline;font-size:10px;position:absolute;top:30px">
+
+          This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change
+          the layout of this page by selecting differentr adipiscing elit,andbsiebdbsbsbbd</p>
+          <p class="op">
+              read more
+          </p>
+  </div><br>
+    <div class="news">
+            <img src="./images/9.jpg"width="50%"
+      height="32%">
+                <button class="b">read more</button>
+      <p style="display:inline;font-size:10px;position:absolute;top:30px">
+
+          This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change
+          the layout of this page by selecting differentr adipiscing elit,absgshsjndhsbsbsbsvsv</p>
+          <p class="op">
+              read more
+          </p>
+    </div><br>
+ <footer>
+    <div class="last">
+        <img src="./images/11.jpg"height="120px"width="100%">
+        <ol style="color:green;display:inline;float:left">
+            <li style="color:white;border:none;margin-bottom:20px"type="1">about</li>
+            <li class="li">history</li>
+            <li class="li">meet the team</li>
+            <li class="li">FAQ</li>
+            <li class="li">partner</li>
+            <li class="li">contact</li>
+        </ol>
+         <ol style="color:green:display:inline;margin-left:100px">
+            <li style="color:white;margin-left:120px;border:none;display:inline">capabilities</li>
+            <li style="margin-left:120px"class="li">logic</li>
+            <li style="margin-left:120px"class="li">code</li>
+            <li style="margin-left:120px"class="li">camera</li>
+            <li style="margin-left:120px"class="li">thanks</li>
+            <li style="margin-left:120px" class="li">contact</li>
+        </ol>
+         <div class="table">   
+                 <ol style="color:green:display:inline;float:left">
+            <li style="color:white;margin-left:0px;border:none;margin-bottom:20px;display:inline">Equipments</li>
+            <li class="li">histor</li>
+            <li class="li">meet the team</li>
+            <li class="li">FAQ</li>
+            <li class="li">partner</li>
+            <li class="li">contact</li>
+        </ol>
+        <ol style="color:green;display:block;">
+            <li style="margin-top:37px;margin-left:130px" class="li">histor</li>
+            <li style="margin-left:130px" class="li">meet the team</li>
+            <li style="margin-left:130px" class="li">FAQ</li>
+            <li style="margin-left:130px" class="li">partner</li>
+            <li style="margin-left:130px" class="li">contact</li>
+        </ol>
+    </div>
+            <ol style="color:green;display:inline">
+            <li style="color:white;border:none;margin-bottom:0px"type="1">services</li>
+                   <li style="margin-left:42px" class="li">meet the team</li>
+            <li style="margin-left:42px" class="li">FAQ</li>
+            <li style="margin-left:42px" class="li">partner</li>
+            <li style="margin-left:42px" class="li">contact</li>
+            
+       <img style="position:relative;bottom:70px;left:220px"src="./images/bch.jpg"height="70vh"width="100vh">
+       
+       
+        </ol>
+          <ol style="color:green;display:inline">
+          <li style="margin-left:42px" class="li">follow us on</li>
+
+     <img style="display:block;margin-left:60px" src="./images/vv.jpg"height="40px"width="40px">
+     <p style="position:relative;bottom:30px">bsbdhdgdgegdgd</p>
+                   </ol>
+        </div>
+  </footer>
+    
+</div>
+</body>
+</html>
+    
